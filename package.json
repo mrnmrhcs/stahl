@@ -1,0 +1,22 @@
+{
+    "name": "stahl",
+    "displayName": "Stahl",
+    "description": "theme",
+    "version": "0.1",
+    "publisher": "m",
+    "engines": {
+        "vscode": "^1.26.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Stahl",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Stahl-color-theme.json"
+            }
+        ]
+    }
+}
