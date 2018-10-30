@@ -1,7 +1,7 @@
 {
-  "name": "Stahl",
-  "type": "dark",
-  "colors": {
+	"name": "stahl",
+	"type": "dark",
+	"colors": {
     "focusBorder": "#4E4F53",
     "foreground": "#CED1D6",
     "widget.shadow": "#2C2C2E",
