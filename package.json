@@ -2,10 +2,10 @@
     "name": "stahl",
     "displayName": "Stahl",
     "description": "Color Theme for Visual Studio Code",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "publisher": "M",
     "engines": {
-        "vscode": "^1.28.0"
+        "vscode": "^1.29.0"
     },
     "categories": [
         "Themes"
