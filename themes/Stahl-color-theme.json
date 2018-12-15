@@ -11,21 +11,21 @@
     "textBlockQuote.border": "#FFE8B7",
     "textCodeBlock.background": "#06FF14",
     "textLink.activeForeground": "#E9F0FC",
-    "textLink.foreground": "#7B7C80",
+    "textLink.foreground": "#B3B8BD",
     "textPreformat.foreground": "#E9F0FC",
     "textSeparator.foreground": "#06FF14",
-    "button.background": "#A3A7AD",
+    "button.background": "#B3B8BD",
     "button.foreground": "#343436",
     "button.hoverBackground": "#B9BFC9",
     "dropdown.background": "#2C2C2E",
     "dropdown.listBackground": "#2C2C2E",
-    "dropdown.foreground": "#7B7C80",
+    "dropdown.foreground": "#797E83",
     "dropdown.border": "#2C2C2E",
     "input.background": "#4E4F53",
     "input.border": "#3F4145",
     "input.foreground": "#E9F0FC",
-    "input.placeholderForeground": "#7B7C80",
-    "inputOption.activeBorder": "#CED1D6",
+    "input.placeholderForeground": "#797E83",
+    "inputOption.activeBorder": "#B3B8BD",
     "inputValidation.errorBackground": "#06FF14",
     "inputValidation.errorBorder": "#06FF14",
     "inputValidation.infoBackground": "#06FF14",
@@ -38,7 +38,7 @@
     "scrollbarSlider.hoverBackground": "#4E4F53",
     "badge.foreground": "#4E4F53",
     "badge.background": "#FFE8B7",
-    "progressBar.background": "#7B7C80",
+    "progressBar.background": "#797E83",
     "list.activeSelectionBackground": "#2C2C2E",
     "list.activeSelectionForeground": "#CED1D6",
     "list.dropBackground": "#2C2C2E",
@@ -46,9 +46,9 @@
     "list.focusForeground": "#CED1D6",
     "list.highlightForeground": "#FFE8B7",
     "list.hoverBackground": "#2C2C2E",
-    "list.hoverForeground": "#A3A7AD",
+    "list.hoverForeground": "#CED1D6",
     "list.inactiveSelectionBackground": "#2C2C2E",
-    "list.inactiveSelectionForeground": "#A3A7AD",
+    "list.inactiveSelectionForeground": "#B3B8BD",
     "list.inactiveFocusBackground": "#2C2C2E",
     "list.invalidItemForeground": "#8C06FF",
 
@@ -61,7 +61,7 @@
 
     "sideBarTitle.foreground": "#4D4E52",
     "sideBar.background": "#343436",
-    "sideBar.foreground": "#7B7C80",
+    "sideBar.foreground": "#797E83",
     "sideBar.border": "#343436",
     "sideBar.dropBackground": "#2C2C2E",
 
@@ -80,7 +80,7 @@
     "tab.unfocusedActiveBorder": "#2C2C2E",
     "tab.inactiveBackground": "#343436",
     "tab.inactiveForeground": "#57575E",
-    "tab.unfocusedActiveForeground": "#7B7C80",
+    "tab.unfocusedActiveForeground": "#797E83",
     "tab.unfocusedInactiveForeground": "#57575E",
     "tab.hoverBackground": "#2C2C2E",
     "tab.unfocusedHoverBackground": "#2C2C2E",
@@ -126,28 +126,28 @@
     "editor.rangeHighlightBackground": "#414347",
     "editor.rangeHighlightBorder": "#2C2C2E",
     "editor.findRangeHighlightBackground": "#CF1ECE",
-    "editor.findRangeHighlightBorder": "#A3A7AD",
+    "editor.findRangeHighlightBorder": "#B3B8BD",
     "editor.hoverHighlightBackground": "#303949",
     "editor.lineHighlightBackground": "#CED1D6",
     "editor.lineHighlightBorder": "#2C2C2E",
     "editorLink.activeForeground": "#343436",
 
     "editor.background": "#2C2C2E",
-    "editor.foreground": "#A3A7AD",
+    "editor.foreground": "#B3B8BD",
     "editorWhitespace.foreground": "#06FF14",
 
     "editorIndentGuide.activeBackground": "#555659",
     "editorIndentGuide.background": "#414347",
 
     "editorRuler.foreground": "#CF1ECE",
-    "editorCodeLens.foreground": "#A3A7AD",
+    "editorCodeLens.foreground": "#B3B8BD",
     "editorBracketMatch.background": "#414347",
     "editorBracketMatch.border": "#414347",
     "editorError.foreground": "#DF80FF",
     "editorError.border": "#2C2C2E",
     "editorWarning.foreground": "#FFE8B7",
     "editorWarning.border": "#2C2C2E",
-    "editorInfo.foreground": "#A3A7AD",
+    "editorInfo.foreground": "#B3B8BD",
     "editorInfo.border": "#2C2C2E",
     "editorHint.foreground": "#305192",
     "editorHint.border": "#2C2C2E",
@@ -170,8 +170,8 @@
     "editorSuggestWidget.highlightForeground": "#E9F0FC",
     "editorSuggestWidget.selectedBackground": "#505357",
 
-    "editorHoverWidget.background": "#2C2C2E",
-    "editorHoverWidget.border": "#2C2C2E",
+    "editorHoverWidget.background": "#3A3B3E",
+    "editorHoverWidget.border": "#3A3B3E",
 
     "debugExceptionWidget.background": "#06FF14",
     "debugExceptionWidget.border": "#06FF14",
@@ -180,18 +180,18 @@
     "editorMarkerNavigationWarning.background": "#FFE8B7",
     "editorMarkerNavigationInfo.background": "#CF1ECE",
     "peekView.border": "#8C06FF",
-    "peekViewEditor.background": "#2C2C2E",
+    "peekViewEditor.background": "#3A3B3E",
     "peekViewEditorGutter.background": "#2C2C2E",
     "peekViewEditor.matchHighlightBackground": "#06FF14",
-    "peekViewResult.background": "#2C2C2E",
-    "peekViewResult.fileForeground": "#A3A7AD",
+    "peekViewResult.background": "#3A3B3E",
+    "peekViewResult.fileForeground": "#B3B8BD",
     "peekViewResult.lineForeground": "#8C06FF",
     "peekViewResult.matchHighlightBackground": "#8C06FF",
     "peekViewResult.selectionBackground": "#8C06FF",
     "peekViewResult.selectionForeground": "#8C06FF",
-    "peekViewTitle.background": "#2C2C2E",
+    "peekViewTitle.background": "#3A3B3E",
     "peekViewTitleDescription.foreground": "#EBF2FF",
-    "peekViewTitleLabel.foreground": "#A3A7AD",
+    "peekViewTitleLabel.foreground": "#B3B8BD",
 
     "merge.currentHeaderBackground": "#2D7366",
     "merge.currentContentBackground": "#24403B",
@@ -218,7 +218,7 @@
     "statusBar.debuggingBackground": "#ff0000",
     "statusBar.debuggingForeground": "#FFF",
     "statusBar.debuggingBorder": "#ff0000",
-    "statusBar.noFolderForeground": "#A3A7AD",
+    "statusBar.noFolderForeground": "#B3B8BD",
     "statusBar.noFolderBackground": "#343436",
     "statusBar.noFolderBorder": "#343436",
     "statusBarItem.activeBackground": "#2C2C2E",
@@ -244,22 +244,22 @@
     "pickerGroup.border": "#FFD479",
     "pickerGroup.foreground": "#FFD479",
     "terminal.background": "#343436",
-    "terminal.foreground": "#7B7C80",
+    "terminal.foreground": "#797E83",
     "terminal.ansiBrightBlack": "#5C5E61",
-    "terminal.ansiBrightBlue": "#A3A7AD",
-    "terminal.ansiBrightCyan": "#A3A7AD",
+    "terminal.ansiBrightBlue": "#B3B8BD",
+    "terminal.ansiBrightCyan": "#B3B8BD",
     "terminal.ansiBrightGreen": "#676A70",
-    "terminal.ansiBrightMagenta": "#A3A7AD",
+    "terminal.ansiBrightMagenta": "#B3B8BD",
     "terminal.ansiBrightRed": "#E37059",
-    "terminal.ansiBrightWhite": "#A3A7AD",
+    "terminal.ansiBrightWhite": "#B3B8BD",
     "terminal.ansiBrightYellow": "#B0A48B",
     "terminal.ansiBlack": "#5C5E61",
-    "terminal.ansiBlue": "#A3A7AD",
-    "terminal.ansiCyan": "#A3A7AD",
-    "terminal.ansiGreen": "#A3A7AD",
-    "terminal.ansiMagenta": "#A3A7AD",
+    "terminal.ansiBlue": "#B3B8BD",
+    "terminal.ansiCyan": "#B3B8BD",
+    "terminal.ansiGreen": "#B3B8BD",
+    "terminal.ansiMagenta": "#B3B8BD",
     "terminal.ansiRed": "#E37059",
-    "terminal.ansiWhite": "#A3A7AD",
+    "terminal.ansiWhite": "#B3B8BD",
     "terminal.ansiYellow": "#B0A48B",
     "terminal.selectionBackground": "#4E4F53",
     "terminalCursor.background": "#343436",
@@ -272,36 +272,29 @@
     "gitDecoration.deletedResourceForeground": "#E37059",
     "gitDecoration.untrackedResourceForeground": "#6C9B85",
     "gitDecoration.ignoredResourceForeground": "#5C5E61",
-    "gitDecoration.conflictingResourceForeground": "#676A70"
+    "gitDecoration.conflictingResourceForeground": "#DF80FF"
   },
   "tokenColors": [
     {
       "settings": {
         "foreground": "#EBF2FF"
       },
-      "name": "White --- ",
+      "name": "--- 1st",
       "scope": "keyword.operator.stylus, entity.name.type.class.php, entity.name.type.namespace.php, support.class.php, support.variable.object.node.js, support.constant.json.js, support.type.object.module.js, keyword.control.anchor.regexp, variable.other.property.js, variable.language.this.php, variable.stylus, variable.other.property.php, support.variable.property.dom.js, entity.other.inherited-class.js, variable.other.global.safer.php, punctuation.definition.variable, variable.other.php, entity.name.function.stylus, meta.function-call.twig, keyword.control.stylus, punctuation.definition.template-expression.begin.js, punctuation.definition.template-expression.end.js, variable.parameter.js, variable.other.readwrite.js, variable.other.readwrite.alias.js, variable.other.object.js, entity.name.type.class.js, meta.selector.stylus, meta.selector, variable.other.object.property.js, keyword.other.special-method, entity.name.type"
     },
     {
       "settings": {
-        "foreground": "#676A70"
+        "foreground": "#B3B8BD"
       },
-      "name": "Grey --- Comments",
-      "scope": "comment, meta.tag.sgml.doctype.html"
+      "name": "--- Light",
+      "scope": "source.apacheconf, text.html.markdown, punctuation.definition.block.tag.jsdoc, text.html.twig, punctuation.separator.delimiter.php, keyword.other.phpdoc.php, punctuation.section.array.begin.php, punctuation.section.array.end.php, meta.object-literal.key.js, source.stylus, punctuation.separator.key-value.js, entity.name.tag.reference, meta.embedded.block.php, meta.embedded.line.php, support.type.property-name.css, support.type.property-name.json, variable.parameter.function, punctuation.definition.template-expression.begin.js, punctuation.definition.template-expression.end.js"
     },
     {
       "settings": {
         "foreground": "#676A70"
       },
-      "name": "GreyDark --- Brackets / Punctuation",
-      "scope": "comment.block.documentation.js, meta.tag.other.html, meta.tag.block.any.html, meta.tag.any.html, punctuation.terminator.expression.php, punctuation.definition.string.begin.php, punctuation.definition.string.end.php, punctuation.definition.string.end.json, punctuation.definition.string.begin.json, punctuation.support.type.property-name.begin.json, punctuation.support.type.property-name.end.json, meta.tag.inline.any.html, meta.tag.structure.any.html, punctuation.separator.operator.css, punctuation.definition.entity.css, punctuation.definition.string.begin.css, punctuation.definition.string.end.css, punctuation.definition.string.begin.html, punctuation.definition.string.end.html, meta.brace.square, meta.brace.round, punctuation.definition.arguments.begin.bracket.round.php, punctuation.definition.arguments.end.bracket.round.php, punctuation.definition.begin.bracket.round.php, punctuation.definition.end.bracket.round.php, punctuation.definition.begin.bracket.curly.php, punctuation.definition.end.bracket.curly.php, punctuation.definition.string.begin.js, punctuation.definition.string.end.js, punctuation.accessor.js, punctuation.definition.block, punctuation.definition.parameters, punctuation.definition.dictionary, punctuation.definition.array, punctuation.separator, constant.character.escape.backslash.regexp, punctuation.terminator.statement, punctuation.definition.string.begin.markdown, punctuation.definition.string.end.markdown, punctuation.definition.metadata.markdown, punctuation.definition.comment, punctuation.section, punctuation.section.embedded, variable.interpolation, meta.separator, punctuation.definition.parameters, punctuation.definition.array, punctuation.separator.key-value"
-    },
-    {
-      "settings": {
-        "foreground": "#A3A7AD"
-      },
-      "name": "GreyLight ---",
-      "scope": "punctuation.definition.block.tag.jsdoc, text.html.twig, punctuation.separator.delimiter.php, keyword.other.phpdoc.php, punctuation.section.array.begin.php, punctuation.section.array.end.php, meta.object-literal.key.js, source.stylus, punctuation.separator.key-value.js, entity.name.tag.reference, meta.embedded.block.php, meta.embedded.line.php, support.type.property-name.css, support.type.property-name.json, variable.parameter.function, punctuation.definition.template-expression.begin.js, punctuation.definition.template-expression.end.js"
+      "name": "--- Dark",
+      "scope": "comment, meta.tag.sgml.doctype.html, comment.block.documentation.js, meta.tag.other.html, meta.tag.block.any.html, meta.tag.any.html, punctuation.terminator.expression.php, punctuation.definition.string.begin.php, punctuation.definition.string.end.php, punctuation.definition.string.end.json, punctuation.definition.string.begin.json, punctuation.support.type.property-name.begin.json, punctuation.support.type.property-name.end.json, meta.tag.inline.any.html, meta.tag.structure.any.html, punctuation.separator.operator.css, punctuation.definition.entity.css, punctuation.definition.string.begin.css, punctuation.definition.string.end.css, punctuation.definition.string.begin.html, punctuation.definition.string.end.html, meta.brace.square, meta.brace.round, punctuation.definition.arguments.begin.bracket.round.php, punctuation.definition.arguments.end.bracket.round.php, punctuation.definition.begin.bracket.round.php, punctuation.definition.end.bracket.round.php, punctuation.definition.begin.bracket.curly.php, punctuation.definition.end.bracket.curly.php, punctuation.definition.string.begin.js, punctuation.definition.string.end.js, punctuation.accessor.js, punctuation.definition.block, punctuation.definition.parameters, punctuation.definition.dictionary, punctuation.definition.array, punctuation.separator, constant.character.escape.backslash.regexp, punctuation.terminator.statement, punctuation.definition.string.begin.markdown, punctuation.definition.string.end.markdown, punctuation.definition.metadata.markdown, punctuation.definition.comment, punctuation.section, punctuation.section.embedded, variable.interpolation, meta.separator, punctuation.definition.parameters, punctuation.definition.array, punctuation.separator.key-value"
     },
     {
       "settings": {
