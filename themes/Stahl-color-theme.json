@@ -91,7 +91,6 @@
     "editorCursor.background": "#2C2C2E",
     "editorCursor.foreground": "#FFF",
 
-
     "editor.background": "#2C2C2E",
     "editor.foreground": "#B3B8BD",
     "editorWhitespace.foreground": "#06FF14",
@@ -105,7 +104,7 @@
     "editorCodeLens.foreground": "#B3B8BD",
     "editorBracketMatch.background": "#414347",
     "editorBracketMatch.border": "#414347",
-    "editorError.foreground": "#06FF14",
+    "editorError.foreground": "#E37059",
     "editorError.border": "#2C2C2E",
     "editorWarning.foreground": "#FFE8B7",
     "editorWarning.border": "#2C2C2E",
