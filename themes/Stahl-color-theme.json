@@ -145,9 +145,10 @@
     "editorOverviewRuler.border": "#2C2C2E",
     "editorOverviewRuler.wordHighlightForeground": "#06FF14",
     "editorOverviewRuler.wordHighlightStrongForeground": "#06FF14",
-    "editorOverviewRuler.errorForeground": "#06FF14",
-    "editorOverviewRuler.warningForeground": "#06FF14",
-    "editorOverviewRuler.infoForeground": "#06FF14",
+
+    "editorOverviewRuler.errorForeground": "#E37059",
+    "editorOverviewRuler.warningForeground": "#FFE8B7",
+    "editorOverviewRuler.infoForeground": "#E9F0FC",
 
     "editorOverviewRuler.modifiedForeground": "#4D78CC",
     "editorOverviewRuler.addedForeground": "#7BF6BF",
