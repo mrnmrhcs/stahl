@@ -6,12 +6,6 @@
 	"type": "dark",
 	"colors": {
 
-    // CONTRAST
-    // ---------------------------------------------------------
-
-    "contrastActiveBorder": "#06FF14",
-    "contrastBorder": "#06FF14",
-
     // BASE
     // ---------------------------------------------------------
 
@@ -99,9 +93,9 @@
     "list.inactiveSelectionBackground": "#2C2C2E",
     "list.inactiveSelectionForeground": "#B3B8BD",
     "list.inactiveFocusBackground": "#2C2C2E",
-    "list.invalidItemForeground": "#06FF14",
-    "list.errorForeground": "#06FF14",
-    "list.warningForeground": "#06FF14",
+    "list.invalidItemForeground": "#E37059",
+    "list.errorForeground": "#E37059",
+    "list.warningForeground": "#FFE8B7",
     "listFilterWidget.background": "#06FF14",
     "listFilterWidget.outline": "#06FF14",
     "listFilterWidget.noMatchesOutline": "#06FF14",
@@ -144,8 +138,8 @@
     "tab.border": "#2C2C2E",
     "tab.activeBorder": "#2C2C2E",
     "tab.unfocusedActiveBorder": "#2C2C2E",
-    "tab.activeBorderTop": "#06FF14",
-    "tab.unfocusedActiveBorderTop": "#06FF14",
+    "tab.activeBorderTop": "#B3B8BD",
+    "tab.unfocusedActiveBorderTop": "#B3B8BD",
     "tab.inactiveBackground": "#343436",
     "tab.inactiveForeground": "#57575E",
     "tab.unfocusedActiveForeground": "#797E83",
@@ -154,10 +148,10 @@
     "tab.unfocusedHoverBackground": "#2C2C2E",
     "tab.hoverBorder": "#2C2C2E",
     "tab.unfocusedHoverBorder": "#2C2C2E",
-    "tab.activeModifiedBorder": "#06FF14",
-    "tab.inactiveModifiedBorder": "#06FF14",
-    "tab.unfocusedActiveModifiedBorder": "#06FF14",
-    "tab.unfocusedInactiveModifiedBorder": "#06FF14",
+    "tab.activeModifiedBorder": "#FFE8B7",
+    "tab.inactiveModifiedBorder": "#FFE8B7",
+    "tab.unfocusedActiveModifiedBorder": "#FFE8B7",
+    "tab.unfocusedInactiveModifiedBorder": "#FFE8B7",
     "editorPane.background": "#06FF14",
 
     // EDITOR
@@ -388,13 +382,13 @@
 
     "extensionButton.prominentForeground": "#343436",
     "extensionButton.prominentBackground": "#FFF",
-    "extensionButton.prominentHoverBackground": "#FDFFB6",
+    "extensionButton.prominentHoverBackground": "#FFE8B7",
 
     // QUICK PICKER
     // ---------------------------------------------------------
 
-    "pickerGroup.border": "#FFD479",
-    "pickerGroup.foreground": "#FFD479",
+    "pickerGroup.border": "#FFE8B7",
+    "pickerGroup.foreground": "#FFE8B7",
 
     // INTEGRATED TERMINAL
     // ---------------------------------------------------------
@@ -433,9 +427,9 @@
     // WELCOME PAGE
     // ---------------------------------------------------------
 
-    "welcomePage.background": "#06FF14",
+    "welcomePage.background": "#2C2C2E",
     "welcomePage.buttonBackground": "#212122",
-    "welcomePage.buttonHoverBackground": "#232324",
+    "welcomePage.buttonHoverBackground": "#3A3B3E",
     "walkThrough.embeddedEditorBackground": "#2C2C2E",
 
     // GIT
@@ -452,21 +446,21 @@
     // SETTINGS EDITOR
     // ---------------------------------------------------------
 
-    "settings.headerForeground": "#06FF14",
-    "settings.modifiedItemIndicator": "#06FF14",
-    "settings.dropdownBackground": "#06FF14",
-    "settings.dropdownForeground": "#06FF14",
-    "settings.dropdownBorder": "#06FF14",
-    "settings.dropdownListBorder": "#06FF14",
-    "settings.checkboxBackground": "#06FF14",
-    "settings.checkboxForeground": "#06FF14",
-    "settings.checkboxBorder": "#06FF14",
-    "settings.textInputBackground": "#06FF14",
-    "settings.textInputForeground": "#06FF14",
-    "settings.textInputBorder": "#06FF14",
-    "settings.numberInputBackground": "#06FF14",
-    "settings.numberInputForeground": "#06FF14",
-    "settings.numberInputBorder": "#06FF14",
+    "settings.headerForeground": "#B3B8BD",
+    "settings.modifiedItemIndicator": "#B0A48B",
+    "settings.dropdownBackground": "#4E4F53",
+    "settings.dropdownForeground": "#B3B8BD",
+    "settings.dropdownBorder": "#4E4F53",
+    "settings.dropdownListBorder": "#2C2C2E",
+    "settings.checkboxBackground": "#4E4F53",
+    "settings.checkboxForeground": "#B3B8BD",
+    "settings.checkboxBorder": "#4E4F53",
+    "settings.textInputBackground": "#4E4F53",
+    "settings.textInputForeground": "#B3B8BD",
+    "settings.textInputBorder": "#4E4F53",
+    "settings.numberInputBackground": "#4E4F53",
+    "settings.numberInputForeground": "#B3B8BD",
+    "settings.numberInputBorder": "#4E4F53",
 
     // BREADCRUMBS
     // ---------------------------------------------------------
