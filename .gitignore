@@ -1,3 +1,52 @@
+# FOLDER
+**/node_modules
+**/db
+**/dist
+**/backup
+
+# FILES
+.vscode
+
+# LARAVEL
+.env
+.env.backup
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+
+# GIT/LOGS/DB
+*.git
+*.log
+*.sql
+*.sqlite
+
+# PACKAGES
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# SYSTEM
+._*
 .DS_Store
-node_modules
-*.vsix
+.AppleDouble
+.LSOverride
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+.apdisk
+Network Trash Folder
+Temporary Items
+Icon

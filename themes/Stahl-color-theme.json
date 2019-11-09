@@ -430,7 +430,7 @@
       "name": "Variable"
     },
     {
-      "scope": "comment, punctuation.definition.comment.scss, punctuation.definition.comment.json.comments, punctuation.definition.comment.php, comment.block.documentation.phpdoc.php, keyword.other.phpdoc.php, comment.block.documentation.phpdoc.php, comment.block.documentation.js, punctuation.definition.comment.powershell",
+      "scope": "comment, punctuation.definition.comment.ini, punctuation.definition.comment.scss, punctuation.definition.comment.json.comments, punctuation.definition.comment.php, comment.block.documentation.phpdoc.php, keyword.other.phpdoc.php, comment.block.documentation.phpdoc.php, comment.block.documentation.js, punctuation.definition.comment.powershell",
       "settings": {
         "foreground": "#636468"
       },

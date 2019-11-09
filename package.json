@@ -1,22 +1,22 @@
 {
-    "name": "stahl",
-    "displayName": "Stahl",
-    "description": "Color Theme for Visual Studio Code",
-    "version": "0.0.2",
-    "publisher": "M",
-    "engines": {
-        "vscode": "^1.29.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "Stahl",
-                "uiTheme": "vs-dark",
-                "path": "./themes/stahl-color-theme.json"
-            }
-        ]
-    }
+  "name": "stahl",
+  "displayName": "Stahl",
+  "description": "Color Theme for Visual Studio Code",
+  "version": "0.1.0",
+  "publisher": "M",
+  "engines": {
+    "vscode": "1.40.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Stahl",
+        "uiTheme": "vs-dark",
+        "path": "./themes/stahl-color-theme.json"
+      }
+    ]
+  }
 }
