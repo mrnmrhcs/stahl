@@ -1,9 +1,10 @@
-# Stahl - Color Theme - 0.1.0
+# Stahl - Color Theme
 
-## Support
+## Enviroment
 * `Visual Studio Code 1.40.0`
 
-### Syntax
+## Support
+* `UI`
 * `MD`
 * `HTML`
 * `CSS`
