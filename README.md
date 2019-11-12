@@ -3,7 +3,7 @@
 ## Enviroment
 * `Visual Studio Code 1.40.0`
 
-## Support
+## Features
 * `UI`
 * `MD`
 * `HTML`
