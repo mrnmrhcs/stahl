@@ -19,7 +19,7 @@
     // ---------------------------------------------------------
     "textBlockQuote.background": "#1a1a1b",
     "textBlockQuote.border": "#acb2b8",
-    "textCodeBlock.background": "#06FF14",
+    "textCodeBlock.background": "#413724",
     "textLink.activeForeground": "#acb2b8",
     "textLink.foreground": "#acb2b8",
     "textPreformat.foreground": "#E5E8EE",
@@ -46,7 +46,7 @@
     "input.placeholderForeground": "#4F5156",
     "inputOption.activeBorder": "#acb2b8",
     "inputValidation.errorBackground": "#E37059",
-    "inputValidation.errorForeground": "#E37059",
+    "inputValidation.errorForeground": "#E5E8EE",
     "inputValidation.errorBorder": "#E37059",
     "inputValidation.infoBackground": "#06FF14",
     "inputValidation.infoForeground": "#06FF14",
@@ -80,7 +80,7 @@
     "list.inactiveSelectionBackground": "#2a2a2c",
     "list.inactiveSelectionForeground": "#E5E8EE",
     "list.inactiveFocusBackground": "#2a2a2c",
-    "list.invalidItemForeground": "#E37059",
+    "list.invalidItemForeground": "#E5E8EE",
     "list.errorForeground": "#E37059",
     "list.warningForeground": "#FFCC99",
     "listFilterWidget.background": "#212122",
@@ -197,7 +197,7 @@
     "editorOverviewRuler.modifiedForeground": "#a3967c",
     "editorOverviewRuler.addedForeground": "#4EAB9A",
     "editorOverviewRuler.deletedForeground": "#E37059",
-    "editorOverviewRuler.errorForeground": "#E37059",
+    "editorOverviewRuler.errorForeground": "#E5E8EE",
     "editorOverviewRuler.warningForeground": "#FFCC99",
     "editorOverviewRuler.infoForeground": "#B3B8BD",
     "editorOverviewRuler.bracketMatchForeground": "#E5E8EE",
@@ -214,13 +214,13 @@
     "editorHint.foreground": "#a79f91",
     "editorHint.border": "#2C2C2E",
     // UNUSED SOURCE CODE
-    "editorUnnecessaryCode.border": "#06FF14",
+    "editorUnnecessaryCode.border": "#a79f91",
     "editorUnnecessaryCode.opacity": "#000000c0",
     // GUTTER - GLYPH MARGINS AND LINE NUMBERS
     "editorGutter.background": "#2C2C2E",
-    "editorGutter.modifiedBackground": "#a3967c",
-    "editorGutter.addedBackground": "#81D6B8",
-    "editorGutter.deletedBackground": "#f07178",
+    "editorGutter.modifiedBackground": "#fff1c2",
+    "editorGutter.addedBackground": "#84e4ac",
+    "editorGutter.deletedBackground": "#f5868b",
     // DIFF EDITOR
     // ---------------------------------------------------------
     "diffEditor.insertedTextBackground": "#2C3D37",
@@ -309,7 +309,7 @@
     "menubar.selectionForeground": "#fff",
     "menubar.selectionBackground": "#212122",
     "menubar.selectionBorder": "#212122",
-    "menu.foreground": "#acb2b8",
+    "menu.foreground": "#676A70",
     "menu.background": "#212122",
     "menu.border": "#212122",
     "menu.selectionForeground": "#fff",
@@ -379,13 +379,13 @@
     "walkThrough.embeddedEditorBackground": "#1a1a1b",
     // GIT
     // ---------------------------------------------------------
-    "gitDecoration.addedResourceForeground": "#4EAB9A",
-    "gitDecoration.modifiedResourceForeground": "#a79f91",
-    "gitDecoration.deletedResourceForeground": "#E37059",
-    "gitDecoration.untrackedResourceForeground": "#6C9B85",
+    "gitDecoration.addedResourceForeground": "#84e4ac",
+    "gitDecoration.modifiedResourceForeground": "#fff1c2",
+    "gitDecoration.deletedResourceForeground": "#f5868b",
+    "gitDecoration.untrackedResourceForeground": "#78AAD6",
     "gitDecoration.ignoredResourceForeground": "#505253",
     "gitDecoration.conflictingResourceForeground": "#D6ACD6",
-    "gitDecoration.submoduleResourceForeground": "#06FF14",
+    "gitDecoration.submoduleResourceForeground": "#99CCFF",
     // SETTINGS EDITOR
     // ---------------------------------------------------------
     "settings.headerForeground": "#73777c",
@@ -423,35 +423,35 @@
   },
   "tokenColors": [
     {
-      "scope": "variable.other.object.js, support.class.builtin.php, support.class.php, constant.other.php, keyword.control.at-rule.function.scss, keyword.control.at-rule.font-face.css, keyword.control.at-rule.media.css, punctuation.definition.entity.css, keyword.operator.pattern.css, entity.name.tag.wildcard.css, entity.name.tag.wildcard.scss, punctuation.definition.interpolation.begin.bracket.curly.scss, punctuation.definition.interpolation.end.bracket.curly.scss, keyword.control.at-rule.fontface.scss, keyword.control.at-rule.mixin.scss, variable.other.property.js, variable.language.super.js, variable.other.property.php, entity.other.alias.php, entity.other.inherited-class.php, support.class.console.js, support.class.exception.php, variable.other.class.php, variable.other.constant.js, variable.scss, variable.interpolation.scss, keyword.control.at-rule.at-root.scss, keyword.control.at-rule.import.scss, keyword.control.at-rule.include.scss, keyword.control.at-rule.media.scss, entity.name.tag.reference.scss, keyword.operator.scss, entity.name.type.class.php, entity.name.type.namespace.php, support.variable.object.node.js, support.constant.json.js, support.type.object.module.js, keyword.control.anchor.regexp, variable.language.this.php, support.variable.property.dom.js, entity.other.inherited-class.js, variable.other.global.safer.php, punctuation.definition.variable, variable.other.php, punctuation.definition.template-expression.begin.js, punctuation.definition.template-expression.end.js, variable.parameter.js, variable.other.readwrite.js, variable.other.readwrite.alias.js, entity.name.type.class.js, meta.selector, variable.other.object.property.js, keyword.other.special-method, entity.name.type, variable.other.readwrite.powershell, support.constant.variable.powershell",
+      "scope": "variable.other.object.js, support.class.builtin.php, support.class.php, constant.other.php, keyword.control.at-rule.function.scss, keyword.control.at-rule.font-face.css, keyword.control.at-rule.media.css, punctuation.definition.entity.css, keyword.operator.pattern.css, entity.name.tag.wildcard.css, entity.name.tag.wildcard.scss, punctuation.definition.interpolation.begin.bracket.curly.scss, punctuation.definition.interpolation.end.bracket.curly.scss, keyword.control.at-rule.fontface.scss, keyword.control.at-rule.mixin.scss, variable.other.property.js, variable.language.super.js, variable.other.property.php, entity.other.alias.php, entity.other.inherited-class.php, support.class.console.js, support.class.exception.php, variable.other.class.php, variable.other.constant.js, variable.scss, variable.interpolation.scss, keyword.control.at-rule.at-root.scss, keyword.control.at-rule.import.scss, keyword.control.at-rule.include.scss, keyword.control.at-rule.media.scss, entity.name.tag.reference.scss, keyword.operator.scss, entity.name.type.class.php, entity.name.type.namespace.php, support.variable.object.node.js, support.constant.json.js, support.type.object.module.js, keyword.control.anchor.regexp, variable.language.this.php, support.variable.property.dom.js, entity.other.inherited-class.js, variable.other.global.safer.php, punctuation.definition.variable, variable.other.php, punctuation.definition.template-expression.begin.js, punctuation.definition.template-expression.end.js, variable.parameter.js, variable.other.readwrite.js, variable.other.readwrite.alias.js, entity.name.type.class.js, meta.selector, variable.other.object.property.js, keyword.other.special-method, entity.name.type, variable.other.readwrite.powershell, support.constant.variable.powershell, keyword.other.ahk, entity.name.function.label.ahk",
       "settings": {
         "foreground": "#EBF2FF"
       },
       "name": "Variable"
     },
     {
-      "scope": "comment, punctuation.definition.comment.xml, punctuation.definition.comment.ini, punctuation.definition.comment.scss, punctuation.definition.comment.json.comments, punctuation.definition.comment.php, comment.block.documentation.phpdoc.php, keyword.other.phpdoc.php, comment.block.documentation.phpdoc.php, comment.block.documentation.js, punctuation.definition.comment.powershell",
+      "scope": "comment, punctuation.definition.comment.xml, punctuation.definition.comment.ini, punctuation.definition.comment.scss, punctuation.definition.comment.json.comments, punctuation.definition.comment.php, comment.block.documentation.phpdoc.php, keyword.other.phpdoc.php, comment.block.documentation.phpdoc.php, comment.block.documentation.js, punctuation.definition.comment.powershell, punctuation.definition.comment.ahk",
       "settings": {
         "foreground": "#636468"
       },
       "name": "Comment"
     },
     {
-      "scope": "meta.tag.xml, meta.tag.preprocessor.xml, punctuation.definition.tag.xml, punctuation.definition.tag.apacheconf, meta.property-list.scss, punctuation.definition.begin.bracket.round.scss, punctuation.definition.end.bracket.round.scss, meta.at-rule.mixin.scss, punctuation.separator.list.comma.css, keyword.operator.combinator.css, punctuation.definition.pseudo-class.begin.bracket.round.css, punctuation.definition.pseudo-class.end.bracket.round.css, punctuation.definition.string, punctuation.separator.key-value.js, punctuation.definition.binding-pattern.object.js, meta.property-value.scss, meta.embedded.block.php, punctuation.separator.delimiter.php, punctuation.definition.class.begin.bracket.curly.php, punctuation.definition.class.end.bracket.curly.php, punctuation.section.array.begin.php, punctuation.section.array.end.php, meta.other.type.phpdoc.php, keyword.other.type.php, punctuation.separator.key-value.html, punctuation.definition.tag.begin.html, punctuation.definition.tag.end.html, source.css.scss, meta.tag.sgml.doctype.html, meta.tag.other.html, meta.tag.block.any.html, meta.tag.any.html, punctuation.terminator.rule.css, punctuation.terminator.expression.php, punctuation.definition.string.begin.php, punctuation.definition.string.end.php, punctuation.definition.string.end.json, punctuation.definition.string.begin.json, punctuation.support.type.property-name.begin.json, punctuation.support.type.property-name.end.json, meta.tag.inline.any.html, meta.tag.structure.any.html, punctuation.separator.operator.css, punctuation.definition.string.begin.css, punctuation.definition.string.end.css, punctuation.definition.string.begin.html, punctuation.definition.string.end.html, meta.brace.square, meta.brace.round, punctuation.definition.arguments.begin.bracket.round.php, punctuation.definition.arguments.end.bracket.round.php, punctuation.definition.begin.bracket.round.php, punctuation.definition.end.bracket.round.php, punctuation.definition.begin.bracket.curly.php, punctuation.definition.end.bracket.curly.php, punctuation.definition.string.begin.js, punctuation.definition.string.end.js, punctuation.accessor.js, punctuation.definition.block, punctuation.definition.parameters, punctuation.definition.dictionary, punctuation.definition.array, punctuation.separator, constant.character.escape.backslash.regexp, punctuation.terminator.statement, punctuation.definition.comment, punctuation.section, punctuation.section.embedded, variable.interpolation, meta.separator, punctuation.definition.parameters, punctuation.definition.array, punctuation.separator.key-value, punctuation.terminator.rule.scss, punctuation.definition.media-query.begin.bracket.round.scss, punctuation.definition.media-query.end.bracket.round.scss, punctuation.definition.string.begin.scss, punctuation.definition.string.end.scss, keyword.operator.assignment.powershell, punctuation.definition.markdown, fenced_code.block.language.markdown, keyword.operator.other.powershell",
+      "scope": "meta.tag.xml, meta.tag.preprocessor.xml, punctuation.definition.tag.xml, punctuation.definition.tag.apacheconf, meta.property-list.scss, punctuation.definition.begin.bracket.round.scss, punctuation.definition.end.bracket.round.scss, meta.at-rule.mixin.scss, punctuation.separator.list.comma.css, keyword.operator.combinator.css, punctuation.definition.pseudo-class.begin.bracket.round.css, punctuation.definition.pseudo-class.end.bracket.round.css, punctuation.definition.string, punctuation.separator.key-value.js, punctuation.definition.binding-pattern.object.js, meta.property-value.scss, meta.embedded.block.php, punctuation.separator.delimiter.php, punctuation.definition.class.begin.bracket.curly.php, punctuation.definition.class.end.bracket.curly.php, punctuation.section.array.begin.php, punctuation.section.array.end.php, meta.other.type.phpdoc.php, keyword.other.type.php, punctuation.separator.key-value.html, punctuation.definition.tag.begin.html, punctuation.definition.tag.end.html, source.css.scss, meta.tag.sgml.doctype.html, meta.tag.other.html, meta.tag.block.any.html, meta.tag.any.html, punctuation.terminator.rule.css, punctuation.terminator.expression.php, punctuation.definition.string.begin.php, punctuation.definition.string.end.php, punctuation.definition.string.end.json, punctuation.definition.string.begin.json, punctuation.support.type.property-name.begin.json, punctuation.support.type.property-name.end.json, meta.tag.inline.any.html, meta.tag.structure.any.html, punctuation.separator.operator.css, punctuation.definition.string.begin.css, punctuation.definition.string.end.css, punctuation.definition.string.begin.html, punctuation.definition.string.end.html, meta.brace.square, meta.brace.round, punctuation.definition.arguments.begin.bracket.round.php, punctuation.definition.arguments.end.bracket.round.php, punctuation.definition.begin.bracket.round.php, punctuation.definition.end.bracket.round.php, punctuation.definition.begin.bracket.curly.php, punctuation.definition.end.bracket.curly.php, punctuation.definition.string.begin.js, punctuation.definition.string.end.js, punctuation.accessor.js, punctuation.definition.block, punctuation.definition.parameters, punctuation.definition.dictionary, punctuation.definition.array, punctuation.separator, constant.character.escape.backslash.regexp, punctuation.terminator.statement, punctuation.definition.comment, punctuation.section, punctuation.section.embedded, variable.interpolation, meta.separator, punctuation.definition.parameters, punctuation.definition.array, punctuation.separator.key-value, punctuation.terminator.rule.scss, punctuation.definition.media-query.begin.bracket.round.scss, punctuation.definition.media-query.end.bracket.round.scss, punctuation.definition.string.begin.scss, punctuation.definition.string.end.scss, keyword.operator.assignment.powershell, punctuation.definition.markdown, fenced_code.block.language.markdown, keyword.operator.other.powershell, punctuation.bracket.ahk, punctuation.ahk",
       "settings": {
         "foreground": "#73777c"
       },
       "name": "Punctuation"
     },
     {
-      "scope": "constant.character.entity.named.amp.html, source.apacheconf, string.value.apacheconf, source.ignore, source.ini, support.constant.property-value.css, constant.character.entity.html, punctuation.definition.entity.html",
+      "scope": "constant.character.entity.named.amp.html, string.value.apacheconf, source.ignore, source.ini, support.constant.property-value.css, constant.character.entity.html, punctuation.definition.entity.html",
       "settings": {
         "foreground": "#81848b"
       },
       "name": "Value"
     },
     {
-      "scope": "keyword, text.xml, text.html.markdown, constant.integer.apacheconf, text.html.php, support.other.namespace.php, meta.object-literal.key.js, meta.property-name.scss, meta.property-name.media-query.scss, punctuation.definition.block.tag.jsdoc, entity.name.tag.reference, meta.embedded.line.php, support.constant.media.css, support.type.property-name.media.css, support.type.property-name.css, support.type.property-name.json, variable.parameter.function, punctuation.definition.template-expression.begin.js, punctuation.definition.template-expression.end.js, constant.numeric.integer.powershell",
+      "scope": "keyword, text.xml, text.html.markdown, constant.integer.apacheconf, text.html.php, support.other.namespace.php, meta.object-literal.key.js, meta.property-name.scss, meta.property-name.media-query.scss, punctuation.definition.block.tag.jsdoc, entity.name.tag.reference, meta.embedded.line.php, support.constant.media.css, support.type.property-name.media.css, support.type.property-name.css, support.type.property-name.json, variable.parameter.function, punctuation.definition.template-expression.begin.js, punctuation.definition.template-expression.end.js, constant.numeric.integer.powershell, source.apacheconf, source.ahk",
       "settings": {
         "foreground": "#B3B8BD"
       },
@@ -479,14 +479,14 @@
       "name": "Attribute",
     },
     {
-      "scope": "support.function.console.js, entity.name.function.php, entity.name.function.js, entity.name.function, support.function, meta.require, meta.tag.sgml.html, meta.function-call, keyword.operator.expression.in.js, keyword.other.new.php, keyword.control.from.js, keyword.control.import.js, keyword.other.function.use.php, keyword.control.export.js, keyword.control.loop.js",
+      "scope": "support.function.console.js, entity.name.function.php, entity.name.function.js, entity.name.function, support.function, meta.require, meta.tag.sgml.html, meta.function-call, keyword.operator.expression.in.js, keyword.other.new.php, keyword.control.from.js, keyword.control.import.js, keyword.other.function.use.php, keyword.control.export.js, keyword.control.loop.js, support.function.ahk",
       "settings": {
         "foreground": "#99CCFF"
       },
       "name": "Function",
     },
     {
-      "scope": "constant.language.json, constant.language.php, constant.language.boolean.true.js,constant.language.boolean.true.php, constant.language.boolean.false.js, constant.language.boolean.false.php",
+      "scope": "punctuation.section.embedded.begin.php, punctuation.section.embedded.end.php, constant.language.json, constant.language.php, constant.language.boolean.true.js,constant.language.boolean.true.php, constant.language.boolean.false.js, constant.language.boolean.false.php",
       "settings": {
         "foreground": "#D6ACD6"
       },
@@ -500,14 +500,14 @@
       "name": "Tag",
     },
     {
-      "scope": "markup.heading.markdown, entity.name.tag, entity.name.tag.html, entity.name.tag.inline.any.html, punctuation.definition.tag.html, entity.name.tag.structure.any.html, punctuation.definition.entity.begin.bracket.square.css, punctuation.definition.entity.end.bracket.square.css, entity.other.attribute-name.id.css, entity.other.attribute-name.css, entity.other.attribute-name.attribute.scss, punctuation.definition.attribute-selector.begin.bracket.square.scss, punctuation.definition.attribute-selector.end.bracket.square.scss, keyword.control.foreach.php, keyword.control.conditional.js, keyword.control.if.php, keyword.control.else.php, punctuation.definition.entity.css, keyword.control.conditional.js, entity.other.attribute-name.class.css, support.function.construct.output.php, meta.definition.variable.js, meta.var-single-variable.expr.js, entity.name.section, meta.attribute-selector.scss, entity.tag.apacheconf",
+      "scope": "markup.heading.markdown, entity.name.tag, entity.name.tag.html, entity.name.tag.inline.any.html, punctuation.definition.tag.html, entity.name.tag.structure.any.html, punctuation.definition.entity.begin.bracket.square.css, punctuation.definition.entity.end.bracket.square.css, entity.other.attribute-name.id.css, entity.other.attribute-name.css, entity.other.attribute-name.attribute.scss, punctuation.definition.attribute-selector.begin.bracket.square.scss, punctuation.definition.attribute-selector.end.bracket.square.scss, keyword.control.foreach.php, keyword.control.conditional.js, keyword.control.if.php, keyword.control.else.php, keyword.control.endif.php, keyword.control.endforeach.php, punctuation.definition.entity.css, keyword.control.conditional.js, entity.other.attribute-name.class.css, support.function.construct.output.php, meta.definition.variable.js, meta.var-single-variable.expr.js, entity.name.section, meta.attribute-selector.scss, entity.tag.apacheconf, keyword.control.ahk",
       "settings": {
         "foreground": "#FFCC99"
       },
       "name": "Control",
     },
     {
-      "scope": "meta.function.closure.php, meta.group.regexp, keyword.operator.assignment.js, keyword.operator.assignment.php, constant.character.escape.css, keyword.operator, constant.character.escape, constant.character.escape.json, keyword.operator, constant.character.escape.backslash.regexp, support.function.any-method",
+      "scope": "meta.function.closure.php, meta.group.regexp, keyword.operator.assignment.js, keyword.operator.assignment.php, constant.character.escape.css, keyword.operator, constant.character.escape, constant.character.escape.json, keyword.operator, constant.character.escape.backslash.regexp, support.function.any-method, punctuation.definition.equals.colon",
       "settings": {
         "foreground": "#E6B064"
       },
