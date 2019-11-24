@@ -170,8 +170,6 @@
     // CURRENT LINE
     "editor.lineHighlightBackground": "#06FF14",
     "editor.lineHighlightBorder": "#06FF14",
-    // LINK
-    "editorLink.activeForeground": "#343436",
     // RANGE HIGHLIGHT - SEARCH RESULTS
     "editor.rangeHighlightBackground": "#0000",
     "editor.rangeHighlightBorder": "#0000",
@@ -187,6 +185,11 @@
     // BRACKET MATCHES
     "editorBracketMatch.background": "#414347",
     "editorBracketMatch.border": "#414347",
+    // STACK
+    "editor.stackFrameHighlightBackground": "#06FF14",
+    "editor.focusedStackFrameHighlightBackground": "#06FF14",
+    // LINK
+    "editorLink.activeForeground": "#343436",
     // OVERVIEW RULER
     "editorOverviewRuler.border": "#2C2C2E",
     "editorOverviewRuler.findMatchForeground": "#676A70",
@@ -241,7 +244,7 @@
     "editorHoverWidget.background": "#212122",
     "editorHoverWidget.border": "#212122",
     // DEBUG EXCEPTION WIDGET
-    "debugExceptionWidget.background": "#06FF14",
+    "debugExceptionWidget.background": "#f8f8",
     "debugExceptionWidget.border": "#06FF14",
     // EDITOR MARKER VIEW
     "editorMarkerNavigation.background": "#06FF14",
@@ -275,13 +278,13 @@
     "merge.commonHeaderBackground": "#06FF14",
     // PANEL
     // ---------------------------------------------------------
-    "panel.background": "#3A3B3E",
-    "panel.border": "#3A3B3E",
-    "panel.dropBackground": "#2C2C2E",
+    "panel.background": "#343436",
+    "panel.border": "#343436",
+    "panel.dropBackground": "#2a2a2c",
     "panelTitle.activeBorder": "#343436",
-    "panelTitle.activeForeground": "#E5E8EE",
+    "panelTitle.activeForeground": "#fff",
     "panelTitle.inactiveForeground": "#676A70",
-    "panelInput.border": "#343436",
+    "panelInput.border": "#2C2C2E",
     // STATUS BAR
     // ---------------------------------------------------------
     "statusBar.background": "#343436",
@@ -326,9 +329,9 @@
     "notifications.background": "#414347",
     "notifications.border": "#414347",
     "notificationLink.foreground": "#E5E8EE",
-    "notificationsErrorIcon.foreground": "#06FF14",
-    "notificationsInfoIcon.foreground": "#06FF14",
-    "notificationsWarningIcon.foreground": "#06FF14",
+    "notificationsErrorIcon.foreground": "#E37059",
+    "notificationsInfoIcon.foreground": "#8FBCBB",
+    "notificationsWarningIcon.foreground": "#FFCC99",
     // EXTENSIONS
     // ---------------------------------------------------------
     "extensionButton.prominentForeground": "#343436",
@@ -364,13 +367,11 @@
     "terminalCursor.foreground": "#E5E8EE",
     // DEBUG
     // ---------------------------------------------------------
-    "debugToolBar.background": "#06FF14",
-    "debugToolBar.border": "#06FF14",
-    "problemsErrorIcon.foreground": "#06FF14",
-    "problemsWarningIcon.foreground": "#06FF14",
-    "problemsInfoIcon.foreground": "#06FF14",
-    "editor.stackFrameHighlightBackground": "#06FF14",
-    "editor.focusedStackFrameHighlightBackground": "#06FF14",
+    "debugToolBar.background": "#f8f8",
+    "debugToolBar.border": "#f8f8",
+    "problemsErrorIcon.foreground": "#E37059",
+    "problemsInfoIcon.foreground": "#8FBCBB",
+    "problemsWarningIcon.foreground": "#FFCC99",
     // WELCOME PAGE
     // ---------------------------------------------------------
     "welcomePage.background": "#2C2C2E",
@@ -430,7 +431,7 @@
       "name": "Variable"
     },
     {
-      "scope": "comment, punctuation.definition.comment.xml, punctuation.definition.comment.ini, punctuation.definition.comment.scss, punctuation.definition.comment.json.comments, punctuation.definition.comment.php, comment.block.documentation.phpdoc.php, keyword.other.phpdoc.php, comment.block.documentation.phpdoc.php, comment.block.documentation.js, punctuation.definition.comment.powershell, punctuation.definition.comment.ahk",
+      "scope": "comment, punctuation.definition.comment.html, punctuation.definition.comment.scss, punctuation.definition.comment.json.comments, punctuation.definition.comment.php, comment.block.documentation.phpdoc.php, keyword.other.phpdoc.php, comment.block.documentation.phpdoc.php, comment.block.documentation.js, punctuation.definition.comment.powershell, punctuation.definition.comment.xml, punctuation.definition.comment.ini, punctuation.definition.comment.ahk",
       "settings": {
         "foreground": "#636468"
       },
