@@ -480,7 +480,7 @@
       "name": "Attribute",
     },
     {
-      "scope": "meta.scriptblock.powershell, interpolated.simple.source.powershell, support.function.console.js, entity.name.function.php, entity.name.function.js, entity.name.function, support.function, meta.require, meta.tag.sgml.html, meta.function-call, keyword.operator.expression.in.js, keyword.other.new.php, keyword.control.from.js, keyword.control.import.js, keyword.other.function.use.php, keyword.control.export.js, keyword.control.loop.js, support.function.ahk",
+      "scope": "meta.group.complex.subexpression.powershell, meta.scriptblock.powershell, interpolated.simple.source.powershell, support.function.console.js, entity.name.function.php, entity.name.function.js, entity.name.function, support.function, meta.require, meta.tag.sgml.html, meta.function-call, keyword.operator.expression.in.js, keyword.other.new.php, keyword.control.from.js, keyword.control.import.js, keyword.other.function.use.php, keyword.control.export.js, keyword.control.loop.js, support.function.ahk",
       "settings": {
         "foreground": "#99CCFF"
       },
