@@ -82,7 +82,7 @@
     "list.inactiveFocusBackground": "#2a2a2c",
     "list.invalidItemForeground": "#E5E8EE",
     "list.errorForeground": "#ff764d",
-    "list.warningForeground": "#FFCC99",
+    "list.warningForeground": "#D6ACD6",
     "listFilterWidget.background": "#212122",
     "listFilterWidget.outline": "#93c4c4",
     "listFilterWidget.noMatchesOutline": "#ff764d",
@@ -166,7 +166,7 @@
     "editor.findRangeHighlightBackground": "#06FF14",
     "editor.findRangeHighlightBorder": "#06FF14",
     // HOVER HIGHLIGHT
-    "editor.hoverHighlightBackground": "#4e3505",
+    "editor.hoverHighlightBackground": "#374a52",
     // CURRENT LINE
     "editor.lineHighlightBackground": "#06FF14",
     "editor.lineHighlightBorder": "#06FF14",
@@ -201,20 +201,20 @@
     "editorOverviewRuler.addedForeground": "#4EAB9A",
     "editorOverviewRuler.deletedForeground": "#ff764d",
     "editorOverviewRuler.errorForeground": "#E5E8EE",
-    "editorOverviewRuler.warningForeground": "#FFCC99",
+    "editorOverviewRuler.warningForeground": "#f8f8",
     "editorOverviewRuler.infoForeground": "#B3B8BD",
     "editorOverviewRuler.bracketMatchForeground": "#E5E8EE",
-    "editorOverviewRuler.currentContentForeground": "#4D78CC",
+    "editorOverviewRuler.currentContentForeground": "#374a52",
     "editorOverviewRuler.incomingContentForeground": "#4EAB9A",
     "editorOverviewRuler.commonContentForeground": "#D6ACD6",
     // ERRORS AND WARNINGS
     "editorError.foreground": "#ff764d",
     "editorError.border": "#2C2C2E",
-    "editorWarning.foreground": "#FFCC99",
+    "editorWarning.foreground": "#D6ACD6",
     "editorWarning.border": "#2C2C2E",
-    "editorInfo.foreground": "#82868b",
+    "editorInfo.foreground": "#374a52",
     "editorInfo.border": "#2C2C2E",
-    "editorHint.foreground": "#a79f91",
+    "editorHint.foreground": "#374a52",
     "editorHint.border": "#2C2C2E",
     // UNUSED SOURCE CODE
     "editorUnnecessaryCode.border": "#a79f91",
@@ -249,7 +249,7 @@
     // EDITOR MARKER VIEW
     "editorMarkerNavigation.background": "#06FF14",
     "editorMarkerNavigationError.background": "#06FF14",
-    "editorMarkerNavigationWarning.background": "#FFCC99",
+    "editorMarkerNavigationWarning.background": "#D6ACD6",
     "editorMarkerNavigationInfo.background": "#06FF14",
     // PEEK VIEW
     // ---------------------------------------------------------
@@ -371,7 +371,7 @@
     "debugToolBar.border": "#f8f8",
     "problemsErrorIcon.foreground": "#ff764d",
     "problemsInfoIcon.foreground": "#8FBCBB",
-    "problemsWarningIcon.foreground": "#FFCC99",
+    "problemsWarningIcon.foreground": "#D6ACD6",
     // WELCOME PAGE
     // ---------------------------------------------------------
     "welcomePage.background": "#2C2C2E",
