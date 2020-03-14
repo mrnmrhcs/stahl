@@ -10,8 +10,8 @@
     // ---------------------------------------------------------
     "focusBorder": "#4F5156",
     "foreground": "#c1c7ce",
-    "widget.shadow": "#212122",
-    "selection.background": "#1a1a1b",
+    "widget.shadow": "#1a1a1b",
+    "selection.background": "#fff",
     "descriptionForeground": "#676A70",
     "errorForeground": "#ff764d",
     "icon.foreground": "#676A70",
@@ -71,14 +71,14 @@
     // ---------------------------------------------------------
     "list.activeSelectionBackground": "#2a2a2c",
     "list.activeSelectionForeground": "#fff",
-    "list.dropBackground": "#2C2C2E",
+    "list.dropBackground": "#2a2a2c",
     "list.focusBackground": "#2a2a2c",
-    "list.focusForeground": "#E5E8EE",
-    "list.highlightForeground": "#a79f91",
+    "list.focusForeground": "#c1c7ce",
+    "list.highlightForeground": "#82868b",
     "list.hoverBackground": "#2a2a2c",
-    "list.hoverForeground": "#E5E8EE",
+    "list.hoverForeground": "#82868b",
     "list.inactiveSelectionBackground": "#2a2a2c",
-    "list.inactiveSelectionForeground": "#E5E8EE",
+    "list.inactiveSelectionForeground": "#c1c7ce",
     "list.inactiveFocusBackground": "#2a2a2c",
     "list.invalidItemForeground": "#E5E8EE",
     "list.errorForeground": "#ff764d",
@@ -168,13 +168,13 @@
     // HOVER HIGHLIGHT
     "editor.hoverHighlightBackground": "#374a52",
     // CURRENT LINE
-    "editor.lineHighlightBackground": "#06FF14",
+    "editor.lineHighlightBackground": "#fff",
     "editor.lineHighlightBorder": "#06FF14",
     // RANGE HIGHLIGHT - SEARCH RESULTS
     "editor.rangeHighlightBackground": "#0000",
     "editor.rangeHighlightBorder": "#0000",
     // EDITOR WHITE SPACES
-    "editorWhitespace.foreground": "#06FF14",
+    "editorWhitespace.foreground": "#636468",
     // INDENT GUIDES
     "editorIndentGuide.background": "#3a3b3f",
     "editorIndentGuide.activeBackground": "#505253",
@@ -236,13 +236,13 @@
     "editorWidget.background": "#212122",
     "editorWidget.border": "#212122",
     "editorWidget.resizeBorder": "#E5E8EE",
-    "editorSuggestWidget.background": "#1a1a1b",
+    "editorSuggestWidget.background": "#212122",
     "editorSuggestWidget.border": "#212122",
     "editorSuggestWidget.foreground": "#82868b",
     "editorSuggestWidget.highlightForeground": "#E5E8EE",
-    "editorSuggestWidget.selectedBackground": "#1a1a1b",
-    "editorHoverWidget.background": "#1a1a1b",
-    "editorHoverWidget.border": "#1a1a1b",
+    "editorSuggestWidget.selectedBackground": "#343436",
+    "editorHoverWidget.background": "#212122",
+    "editorHoverWidget.border": "#212122",
     // DEBUG EXCEPTION WIDGET
     "debugExceptionWidget.background": "#f8f8",
     "debugExceptionWidget.border": "#06FF14",
@@ -424,7 +424,7 @@
   },
   "tokenColors": [
     {
-      "scope": "variable.other.readwrite.powershell, variable.other.object.js, support.class.builtin.php, support.class.php, constant.other.php, keyword.control.at-rule.function.scss, keyword.control.at-rule.font-face.css, keyword.control.at-rule.media.css, punctuation.definition.entity.css, keyword.operator.pattern.css, entity.name.tag.wildcard.css, entity.name.tag.wildcard.scss, punctuation.definition.interpolation.begin.bracket.curly.scss, punctuation.definition.interpolation.end.bracket.curly.scss, keyword.control.at-rule.fontface.scss, keyword.control.at-rule.mixin.scss, variable.other.property.js, variable.language.super.js, variable.other.property.php, entity.other.alias.php, entity.other.inherited-class.php, support.class.console.js, support.class.exception.php, variable.other.class.php, variable.other.constant.js, variable.scss, variable.interpolation.scss, keyword.control.at-rule.at-root.scss, keyword.control.at-rule.import.scss, keyword.control.at-rule.include.scss, keyword.control.at-rule.media.scss, entity.name.tag.reference.scss, keyword.operator.scss, entity.name.type.class.php, entity.name.type.namespace.php, support.variable.object.node.js, support.constant.json.js, support.type.object.module.js, keyword.control.anchor.regexp, variable.language.this.php, support.variable.property.dom.js, entity.other.inherited-class.js, variable.other.global.safer.php, punctuation.definition.variable, variable.other.php, punctuation.definition.template-expression.begin.js, punctuation.definition.template-expression.end.js, variable.parameter.js, variable.other.readwrite.js, variable.other.readwrite.alias.js, entity.name.type.class.js, meta.selector, variable.other.object.property.js, keyword.other.special-method, entity.name.type, support.constant.variable.powershell, keyword.other.ahk, entity.name.function.label.ahk, constant.language.powershell, variable.other.member.powershell, support.variable.automatic.powershell",
+      "scope": "variable.other.constant.property.js, variable.other.constant.object.js, support.variable.object.process.js, support.other.namespace.php, meta.method-call.static, variable.other.object.js, variable.other.constant.js, variable.other.readwrite.js, variable.other.readwrite.alias, meta.import, support.class.builtin.php, support.class.php, constant.other.php, keyword.control.at-rule.function.scss, keyword.control.at-rule.font-face.css, keyword.control.at-rule.media.css, punctuation.definition.entity.css, keyword.operator.pattern.css, entity.name.tag.wildcard.css, entity.name.tag.wildcard.scss, punctuation.definition.interpolation.begin.bracket.curly.scss, punctuation.definition.interpolation.end.bracket.curly.scss, keyword.control.at-rule.fontface.scss, keyword.control.at-rule.mixin.scss, variable.language.super.js, entity.other.alias.php, entity.other.inherited-class.php, support.class.console.js, support.class.exception.php, variable.other.class.php, variable.scss, variable.interpolation.scss, keyword.control.at-rule.at-root.scss, keyword.control.at-rule.import.scss, keyword.control.at-rule.include.scss, keyword.control.at-rule.media.scss, entity.name.tag.reference.scss, keyword.operator.scss, entity.name.type.class.php, entity.name.type.namespace.php, support.variable.object.node.js, support.constant.json.js, support.type.object.module.js, keyword.control.anchor.regexp, variable.language.this.php, support.variable.property.dom.js, entity.other.inherited-class.js, variable.other.global.safer.php, punctuation.definition.variable, variable.other.php, punctuation.definition.template-expression.begin.js, punctuation.definition.template-expression.end.js, variable.parameter.js, entity.name.type.class.js, meta.selector, variable.other.object.property.js, keyword.other.special-method, entity.name.type, support.constant.variable.powershell, keyword.other.ahk, entity.name.function.label.ahk, constant.language.powershell, variable.other.member.powershell, support.variable.automatic.powershell",
       "settings": {
         "foreground": "#EBF2FF"
       },
@@ -452,7 +452,7 @@
       "name": "Value"
     },
     {
-      "scope": "keyword, text.xml, text.html.markdown, constant.integer.apacheconf, text.html.php, support.other.namespace.php, meta.object-literal.key.js, meta.property-name.scss, meta.property-name.media-query.scss, punctuation.definition.block.tag.jsdoc, entity.name.tag.reference, meta.embedded.line.php, support.constant.media.css, support.type.property-name.media.css, support.type.property-name.css, support.type.property-name.json, variable.parameter.function, punctuation.definition.template-expression.begin.js, punctuation.definition.template-expression.end.js, constant.numeric.integer.powershell, source.apacheconf, source.ahk",
+      "scope": "variable.other.env, variable.other.property, keyword, text.xml, text.html.markdown, constant.integer.apacheconf, text.html.php, meta.object-literal.key.js, meta.property-name.scss, meta.property-name.media-query.scss, punctuation.definition.block.tag.jsdoc, entity.name.tag.reference, meta.embedded.line.php, support.constant.media.css, support.type.property-name.media.css, support.type.property-name.css, support.type.property-name.json, variable.parameter.function, punctuation.definition.template-expression.begin.js, punctuation.definition.template-expression.end.js, constant.numeric.integer.powershell, source.apacheconf, source.ahk",
       "settings": {
         "foreground": "#bbc2ca"
       },
@@ -466,7 +466,7 @@
       "name": "String"
     },
     {
-      "scope": "string.regexp, string.regexp.js, entity.other.attribute-name.pseudo-class.css, entity.other.attribute-name.pseudo-element.css, support.constant.font-name.css, constant.other.color, support.constant.property-value, support.constant.property-value, meta.property-value, meta.entity.new.name.expr",
+      "scope": "source.env, constant.numeric.env, constant.language.env, string.regexp, string.regexp.js, entity.other.attribute-name.pseudo-class.css, entity.other.attribute-name.pseudo-element.css, support.constant.font-name.css, constant.other.color, support.constant.property-value, support.constant.property-value, meta.property-value, meta.entity.new.name.expr",
       "settings": {
         "foreground": "#9dc9c8"
       },
@@ -480,7 +480,7 @@
       "name": "Attribute",
     },
     {
-      "scope": "meta.group.complex.subexpression.powershell, meta.scriptblock.powershell, interpolated.simple.source.powershell, support.function.console.js, entity.name.function.php, entity.name.function.js, entity.name.function, support.function, meta.require, meta.tag.sgml.html, meta.function-call, keyword.operator.expression.in.js, keyword.other.new.php, keyword.control.from.js, keyword.control.import.js, keyword.other.function.use.php, keyword.control.export.js, keyword.control.loop.js, support.function.ahk",
+      "scope": "meta.method-call.php, meta.function.js, entity.name.function.js, meta.group.complex.subexpression.powershell, meta.scriptblock.powershell, interpolated.simple.source.powershell, support.function.console.js, meta.require, meta.tag.sgml.html, meta.function-call, keyword.operator.expression.in.js, keyword.other.new.php, keyword.control.from.js, keyword.control.import.js, keyword.other.function.use.php, keyword.control.export.js, keyword.control.loop.js, support.function.ahk",
       "settings": {
         "foreground": "#99CCFF"
       },
@@ -494,7 +494,7 @@
       "name": "Boolean",
     },
     {
-      "scope": "storage.type.powershell, constant, entity.name.tag.css, keyword.other.type.php, meta.var.expr.js, support.variable.dom.js, variable.language.super.js, variable.language.this.js, keyword.control.if.scss, keyword.control.else.scss, keyword.control.return.scss, meta.property-value.css, meta.scope.between-tag-pair.html, support.variable.dom.js, support.class, entity.name.type.class",
+      "scope": "storage.type.powershell, constant, entity.name.tag.css, keyword.other.type.php, meta.var.expr.js, support.variable.dom.js, variable.language.super.js, variable.language.this.js, keyword.control.if.scss, keyword.control.else.scss, keyword.control.return.scss, meta.property-value.css, meta.scope.between-tag-pair.html, support.variable.dom.js, support.class",
       "settings": {
         "foreground": "#e09887"
       },
@@ -529,7 +529,7 @@
       "name": "Units"
     },
     {
-      "scope": "variable, variable.other.member.php, constant.other.symbol",
+      "scope": "variable.other.member.php, constant.other.symbol",
       "settings": {
         "foreground": "#ff764d"
       },
