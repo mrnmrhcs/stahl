@@ -418,9 +418,9 @@
     // SNIPPETS
     // ---------------------------------------------------------
     "editor.snippetTabstopHighlightBackground": "#212122",
-    "editor.snippetTabstopHighlightBorder": "#06FF14",
-    "editor.snippetFinalTabstopHighlightBackground": "#06FF14",
-    "editor.snippetFinalTabstopHighlightBorder": "#06FF14"
+    "editor.snippetTabstopHighlightBorder": "#82AAFF",
+    "editor.snippetFinalTabstopHighlightBackground": "#82AAFF",
+    "editor.snippetFinalTabstopHighlightBorder": "#82AAFF"
   },
   "tokenColors": [
     {
