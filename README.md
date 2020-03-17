@@ -1,7 +1,7 @@
 # Stahl - Color Theme
 
 ## Enviroment
-* `Visual Studio Code 1.40.0`
+* `Visual Studio Code 1.43.0`
 
 ## Features
 * `UI`
