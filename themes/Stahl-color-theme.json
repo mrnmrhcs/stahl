@@ -92,7 +92,6 @@
     "activityBar.background": "#343436",
     "activityBar.activeBackground": "#343436",
     "activityBar.activeBorder": "#343436",
-    "activityBar.dropBackground": "#2C2C2E",
     "activityBar.foreground": "#E5E8EE",
     "activityBar.inactiveForeground": "#676A70",
     "activityBar.border": "#343436",
@@ -186,8 +185,8 @@
     "editorBracketMatch.background": "#414347",
     "editorBracketMatch.border": "#414347",
     // STACK
-    "editor.stackFrameHighlightBackground": "#06FF14",
-    "editor.focusedStackFrameHighlightBackground": "#06FF14",
+    "editor.stackFrameHighlightBackground": "#0c5fbd",
+    "editor.focusedStackFrameHighlightBackground": "#0c5fbd",
     // LINK
     "editorLink.activeForeground": "#343436",
     // OVERVIEW RULER
@@ -280,7 +279,6 @@
     // ---------------------------------------------------------
     "panel.background": "#343436",
     "panel.border": "#343436",
-    "panel.dropBackground": "#2a2a2c",
     "panelTitle.activeBorder": "#343436",
     "panelTitle.activeForeground": "#fff",
     "panelTitle.inactiveForeground": "#676A70",
@@ -290,9 +288,9 @@
     "statusBar.background": "#343436",
     "statusBar.foreground": "#82868b",
     "statusBar.border": "#343436",
-    "statusBar.debuggingBackground": "#06FF14",
-    "statusBar.debuggingForeground": "#B3B8BD",
-    "statusBar.debuggingBorder": "#06FF14",
+    "statusBar.debuggingBackground": "#0c5fbd",
+    "statusBar.debuggingForeground": "#fff",
+    "statusBar.debuggingBorder": "#414347",
     "statusBar.noFolderForeground": "#676A70",
     "statusBar.noFolderBackground": "#343436",
     "statusBar.noFolderBorder": "#343436",
@@ -367,8 +365,8 @@
     "terminalCursor.foreground": "#E5E8EE",
     // DEBUG
     // ---------------------------------------------------------
-    "debugToolBar.background": "#f8f8",
-    "debugToolBar.border": "#f8f8",
+    "debugToolBar.background": "#414347",
+    "debugToolBar.border": "#414347",
     "problemsErrorIcon.foreground": "#ff764d",
     "problemsInfoIcon.foreground": "#8FBCBB",
     "problemsWarningIcon.foreground": "#D6ACD6",
